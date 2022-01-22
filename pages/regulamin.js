@@ -1,16 +1,16 @@
-import Inside from '../components/inside'
+import CustomHead from '../components/CustomHead'
 import NavFooter from '../components/NavFooter'
 import Ramki from '../components/ramki'
-import CustomHead from '../components/CustomHead'
+import RegInside from '../components/RegInside'
 
 export default function Home() {
   return (
     <>
       <CustomHead>
-        <title>Verdimeble | szczecin</title>
+        <title>Regulamin | Verdimeble</title>
       </CustomHead>
       <Ramki>
-        <Inside />
+        <RegInside />
       </Ramki>
       <NavFooter />
     </>
