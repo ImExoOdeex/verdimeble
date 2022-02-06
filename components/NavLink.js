@@ -10,11 +10,14 @@ import {
     MenuButton,
     Menu,
     MenuList,
-    MenuItem
+    MenuItem,
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon, HamburgerIcon, SmallCloseIcon } from '@chakra-ui/icons';
 import Link from './Link'
 import { useRouter } from 'next/router';
+import LanguageSwither from './LanguageSwither';
+import useTranslation from 'next-translate/useTranslation'
+
 
 export default function Nav() {
     const { colorMode, toggleColorMode } = useColorMode();
@@ -28,6 +31,8 @@ export default function Nav() {
     const px = { base: '10px', lg: '20px' }
     const py = '5px'
     const router = useRouter();
+
+    let { t } = useTranslation()
 
     return (
         <Box bg={useColorModeValue('secondarylight', 'secondarydark')}
@@ -47,14 +52,14 @@ export default function Nav() {
                             _hover={
                                 'none'
                             }
-                            mr="20px" _focus={'none'}
+                            mr="20px"
                         >
                             Verdimeble</Link>
                         <HStack whiteSpace={'nowrap'} fontWeight={'extrabold'} display={{ base: 'none', md: 'flex' }} >
-                            <Link id={router.pathname == "#start" ? "active" : ""} _focus={'none'} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#start'}>Strona główna</Link>
-                            <Link _focus={'none'} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#o_nas'}>o nas</Link>
-                            <Link _focus={'none'} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#oferta'}>oferta</Link>
-                            <Link _focus={'none'} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#kontakt'}>Jak dojechać?</Link>
+                            <Link _activeLink={{ color: '#fff' }} id={router.pathname == "#start" ? "active" : ""} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#start'}>{t('common:strona glowna')}</Link>
+                            <Link _activeLink={{ color: '#fff' }} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#o_nas'}>{t('common:o nas')}</Link>
+                            <Link _activeLink={{ color: '#fff' }} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#oferta'}>{t('common:oferta')}</Link>
+                            <Link _activeLink={{ color: '#fff' }} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#kontakt'}>{t('common:jak dojechac')}</Link>
                         </HStack>
                     </HStack>
                 </Flex>
@@ -62,28 +67,29 @@ export default function Nav() {
                     <HStack
                         spacing={3}>
                         <HStack spacing={5} display={'flex'}>
-                            <Button mr={{ base: '-3', md: '0' }} _focus={'none'} data-splitbee-event="theme" onClick={toggleColorMode} aria-label="Justify" rounded={'xl'} >zmiana motywu {colorMode === 'dark' ? < SunIcon ml={ml} /> : < MoonIcon ml={ml} />}
+                            <LanguageSwither />
+                            <Button style={{ WebkitMarginStart: '0' }} w={{ base: '80px', md: 'auto' }} marginInlineStart={'5px'} mr={{ base: '-3', md: '0' }} data-splitbee-event="theme" fontSize={{ base: '0px', md: '15px' }} onClick={toggleColorMode} aria-label="Justify" rounded={'xl'} >{t('common:zmiana motywu')} {colorMode === 'dark' ? < SunIcon fontSize={'15px'} ml={ml} /> : <MoonIcon fontSize={'15px'} ml={ml} />}
                             </Button>
                             <Menu zIndex={'99999'}>
                                 {({ isOpen }) => (
                                     <>
-                                        <MenuButton _focus={'none'} display={['flex', 'flex', 'none', 'none']} rounded={'xl'}
-                                            as={IconButton}
+                                        <MenuButton display={['flex', 'flex', 'none', 'none']} rounded={'xl'}
+                                            as={IconButton} marginInlineStart={'0px'} marginInlineEnd={'auto'} style={{ WebkitMarginStart: '5px' }}
                                             aria-label='Options'>
                                             {isOpen ? <SmallCloseIcon fontSize={'20px'} /> : <HamburgerIcon />}
                                         </MenuButton>
                                         <MenuList zIndex={'99999'} bg={bg}>
                                             <Link _hover={'none'} href='#start'>
-                                                <MenuItem>Strona główna</MenuItem >
+                                                <MenuItem>{t('common:strona glowna')}</MenuItem >
                                             </Link>
                                             <Link _hover={'none'} href='#o_nas'>
-                                                <MenuItem>o nas</MenuItem>
+                                                <MenuItem>{t('common:o nas')}</MenuItem>
                                             </Link>
                                             <Link _hover={'none'} href='#oferta'>
-                                                <MenuItem>oferta</MenuItem>
+                                                <MenuItem>{t('common:oferta')}</MenuItem>
                                             </Link>
                                             <Link _hover={'none'} href='#kontakt'>
-                                                <MenuItem>Jak dojechać?</MenuItem>
+                                                <MenuItem>{t('common:jak dojechac')}</MenuItem>
                                             </Link>
                                         </MenuList>
                                     </>

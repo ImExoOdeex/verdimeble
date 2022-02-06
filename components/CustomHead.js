@@ -8,7 +8,7 @@ const CustomHead = ({ children }) => {
             <link rel="icon" href="https://ik.imagekit.io/o532f5vcp38/dfbdgd_KKx0shkUk?updatedAt=1633882179537" />
             <script async src="https://cdn.splitbee.io/sb.js"></script>
             <meta name="keywords"
-                content="verdimeble, meble, meble tapicerowane, meble na wymiar, meble szczecin, verdimeble szczecin" />
+                content="meble wypoczyńkowe, meble wypoczyńkowe szczecin, producent mebli, producent mebli szczecin, verdimeble, meble, meble tapicerowane, meble na wymiar, meble szczecin, verdimeble szczecin, verdi meble szczecin" />
             <meta name="robots" content="follow" />
             <meta name="author" content=".pablo.albino" />
             <meta name="copyright" content=".pablo.albino" />

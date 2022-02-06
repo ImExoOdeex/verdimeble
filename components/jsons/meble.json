@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "casino",
+        "image": [
+            "https://ik.imagekit.io/o532f5vcp38/casino1?updatedAt=1639861703319",
+            "https://ik.imagekit.io/o532f5vcp38/casino2?updatedAt=1639861711022",
+            "https://ik.imagekit.io/o532f5vcp38/casino3?updatedAt=1639861720294"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "bianka",
+        "image": [
+            "bianka1.jpg",
+            "bianka2.jpg",
+            "bianka3.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "edward",
+        "image": [
+            "edward1.jpg",
+            "edward2.jpg",
+            "edward3.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "fame",
+        "image": [
+            "fame1.jpg",
+            "fame2.jpg",
+            "fame3.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "gordon",
+        "image": [
+            "gordon1.jpg",
+            "gordon2.jpg",
+            "gordon3.jpg"
+        ]
+    }
+]
