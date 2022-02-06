@@ -2,8 +2,8 @@
   "name": "verdimeble",
   "private": true,
   "scripts": {
-    "dev": "next dev && next-translate",
-    "build": "next build && next-translate",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
