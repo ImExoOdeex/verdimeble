@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev && next-translate",
-    "build": "next build && next export && next-translate",
+    "build": "next build && next-translate",
     "start": "next start",
     "lint": "next lint"
   },
