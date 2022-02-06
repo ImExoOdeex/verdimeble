@@ -536,7 +536,7 @@ const Inside = ({ delay }) => {
                                                     return <Flex key={image} _notLast={{ marginRight: { base: '0px', md: '20px' } }}
                                                         _notFirst={{ marginTop: { base: '20px', md: '0px' } }} _last={{ marginRight: '0px' }}
                                                         minW="30%">
-                                                        <Image alt={image} rounded={'lg'} objectFit={'cover'} key={image} src={image} />
+                                                        <Image loading="lazy" alt={image} rounded={'lg'} objectFit={'cover'} key={image} src={image} />
                                                     </Flex>
                                                 })}
                                             </Flex>

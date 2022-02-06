@@ -12,36 +12,36 @@
         "id": 2,
         "name": "bianka",
         "image": [
-            "bianka1.jpg",
-            "bianka2.jpg",
-            "bianka3.jpg"
+            "https://ik.imagekit.io/o532f5vcp38/bianka1_DMhwx3oJ6YG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178695546",
+            "https://ik.imagekit.io/o532f5vcp38/bianka2_wiq0vhYar.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178699353",
+            "https://ik.imagekit.io/o532f5vcp38/bianka3_1YBvRszgOJS.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178693966"
         ]
     },
     {
         "id": 3,
         "name": "edward",
         "image": [
-            "edward1.jpg",
-            "edward2.jpg",
-            "edward3.jpg"
+            "https://ik.imagekit.io/o532f5vcp38/edward1__LZkOe0y1y.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701515",
+            "https://ik.imagekit.io/o532f5vcp38/edward2_QBi2JOjqvVKa.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701941",
+            "https://ik.imagekit.io/o532f5vcp38/edward3_48waMSw-s.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178696359"
         ]
     },
     {
         "id": 4,
         "name": "fame",
         "image": [
-            "fame1.jpg",
-            "fame2.jpg",
-            "fame3.jpg"
+            "https://ik.imagekit.io/o532f5vcp38/fame1_JBRvIfJHwWT.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178694473",
+            "https://ik.imagekit.io/o532f5vcp38/fame2_1lddjWaVy5.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178695570",
+            "https://ik.imagekit.io/o532f5vcp38/fame3_dpnbQyst-ay.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178693377"
         ]
     },
     {
         "id": 5,
         "name": "gordon",
         "image": [
-            "gordon1.jpg",
-            "gordon2.jpg",
-            "gordon3.jpg"
+            "https://ik.imagekit.io/o532f5vcp38/gordon1_PQNMO_BCFI.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178699961",
+            "https://ik.imagekit.io/o532f5vcp38/gordon2_yd-bX8rY0nCG.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178703609",
+            "https://ik.imagekit.io/o532f5vcp38/gordon3_XQlIqjtDDB.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178703668"
         ]
     }
 ]
