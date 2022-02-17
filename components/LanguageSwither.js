@@ -40,21 +40,21 @@ const LanguageSwither = () => {
                         {isOpen ? <Right /> : <Down />}
                     </MenuButton>
                     <MenuList bg={bg}>
-                        <Link href={router.asPath} locale="pl">
+                        <Link href={router.asPath} passHref={true} locale="pl">
                             <MenuItem justifyContent={'space-between'}>
                                 <Text>polski (Pl)</Text><Image alt='polska' w="50px" src="poland.svg" rounded={'lg'} /></MenuItem></Link>
 
-                        <Link href={router.asPath} locale="de">
+                        <Link href={router.asPath} passHref={true} locale="de">
                             <MenuItem justifyContent={'space-between'}>
                                 <Text>Deutsch (De)</Text><Image alt='niemcy' w="50px" src="niemcy.svg" rounded={'lg'} /></MenuItem></Link>
 
 
-                        <Link href={router.asPath} locale="sv">
+                        <Link href={router.asPath} passHref={true} locale="sv">
                             <MenuItem justifyContent={'space-between'}>
                                 <Text>Svenska (Sv)</Text><Image alt='szwecja' w="50px" src="szwecja.svg" rounded={'lg'} /></MenuItem></Link>
 
 
-                        <Link href={router.asPath} locale="en">
+                        <Link href={router.asPath} passHref={true} locale="en">
                             <MenuItem justifyContent={'space-between'}>
                                 <Text>English (En)</Text><Image alt='anglia' w="50px" src="anglia.svg" rounded={'lg'} /></MenuItem></Link>
                     </MenuList>

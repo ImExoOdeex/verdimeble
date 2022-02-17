@@ -246,13 +246,13 @@ const Inside = ({ delay }) => {
                     <Title>{t('common:o nas')}</Title>
                     <Flex flexDir={'row'} maxW={'500px'} justifyContent={'space-between'}>
                         <Flex flexDir={'column'}>
-                            <Text>{t('common:jestesmy od')}</Text><Text mt={'-3'} fontSize={{ base: '60px', md: '70px' }} fontWeight={'1000'} id="dwa">2012</Text>
+                            <Text>{t('common:jestesmy od')}</Text><Text mt={'-3'} fontSize={{ base: '50px', md: '70px' }} fontWeight={'1000'} id="dwa">2012</Text>
                         </Flex>
                         <Center height='100px'>
                             <Divider orientation='vertical' display={{ base: "flex", sm: 'none' }} />
                         </Center>
                         <Flex flexDir={'column'}>
-                            <Text>{t('common:dzialamy juz')}</Text><Text mt={'-3'} fontSize={{ base: '60px', md: '70px' }} fontWeight={'1000'} id="dwa">{dzialamy} {t('common:lat')}</Text>
+                            <Text>{t('common:dzialamy juz')}</Text><Text mt={'-3'} fontSize={{ base: '50px', md: '70px' }} fontWeight={'1000'} id="dwa">{dzialamy} {t('common:lat')}</Text>
                         </Flex>
                     </Flex>
                 </motion.div>
@@ -356,52 +356,53 @@ const Inside = ({ delay }) => {
             </motion.div>
 
             <Flex id="oferta" scrollMarginTop={'90px'}>
-                <Flex layout flexDir={'column'} justifyContent={'left'} textAlign={'left'} ml="20px" mr={'20px'} mt={{ base: '20px', md: '50px' }} fontSize={'26px'}>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}
-                    >
-                        <Title>{t('common:oferta')}</Title>
-                        <Heading mt={mt} fontSize={'4xl'}>{t('common:produkcja')}</Heading>
-                    </motion.div>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}
-                    >
-                        <Flex fontSize={'xl'} bg={bg} p={'5'} rounded={'lg'} mt={'10px'}>
-                            <Text>{t('common:jestesmy producentem')}</Text>
-                        </Flex>
-                    </motion.div>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}
-                    >
-                        <Heading mt={mt} fontSize={'4xl'}>
-                            {/* // _after={{
+                <Flex layout flexDir={'column'} justifyContent={'left'} textAlign={'left'} mt={{ base: '20px', md: '50px' }} fontSize={'26px'}>
+                    <Flex ml="20px" mr={'20px'} flexDir='column'>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}
+                        >
+                            <Title>{t('common:oferta')}</Title>
+                            <Heading mt={mt} fontSize={'4xl'}>{t('common:produkcja')}</Heading>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}
+                        >
+                            <Flex fontSize={'xl'} bg={bg} p={'5'} rounded={'lg'} mt={'10px'}>
+                                <Text>{t('common:jestesmy producentem')}</Text>
+                            </Flex>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}
+                        >
+                            <Heading mt={mt} fontSize={'4xl'}>
+                                {/* // _after={{
                                     //     content: "''",
                                 //     width: 'full',
                                 //     height: '30%',
@@ -413,89 +414,89 @@ const Inside = ({ delay }) => {
                                 //     rounded: 'lg',
                                 //     zIndex: -1,
                                 // }} */}
-                            {t('common:w ramach')}</Heading>
-                    </motion.div>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}
-                    >
-                        <Flex fontSize={'xl'} bg={bg} p={'5'} rounded={'lg'} mt={'10px'} flexDir={'column'}>
-                            <UnorderedList lineHeight={'120%'} listStyleType={'none'}>
-                                <ListItem>{t('common:li1')}</ListItem>
-                                <ListItem>{t('common:li2')}</ListItem>
-                                <ListItem>{t('common:li3')}</ListItem>
-                                <ListItem>{t('common:li4')}</ListItem>
-                            </UnorderedList>
-                            <Text mt={'20px'}>{t('common:praca pasja')}</Text>
-                        </Flex>
-                    </motion.div>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}>
-                        <Heading mt={mt} fontSize={'4xl'}>{t('common:pozostajemy')}</Heading>
-                    </motion.div>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}
-                    >
-                        <Flex fontSize={'xl'} bg={bg} p={'5'} rounded={'lg'} mt={'10px'}>
-                            <Text>{t('common:w razie')}</Text>
-                        </Flex>
-                    </motion.div>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}
-                    >
-                        <Heading mt={mt} textAlign={'center'} fontSize={'4xl'}>
-                            {t('common:zapraszamy')}</Heading>
-                    </motion.div>
-                    <motion.div
-                        initial="hidden"
-                        exit='exit'
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        variants={{
-                            visible: { opacity: 1, scale: 1 },
-                            hidden: { opacity: 0, scale: 0 },
-                            exit: { opacity: 0, scale: 1, y: 20 }
-                        }}>
-                        <Heading id="Galeria" fontSize={{ base: '60px', md: '120px' }} textAlign={'left'}>{t('common:galeria')}</Heading>
-                    </motion.div>
+                                {t('common:w ramach')}</Heading>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}
+                        >
+                            <Flex fontSize={'xl'} bg={bg} p={'5'} rounded={'lg'} mt={'10px'} flexDir={'column'}>
+                                <UnorderedList lineHeight={'120%'} listStyleType={'none'}>
+                                    <ListItem>{t('common:li1')}</ListItem>
+                                    <ListItem>{t('common:li2')}</ListItem>
+                                    <ListItem>{t('common:li3')}</ListItem>
+                                    <ListItem>{t('common:li4')}</ListItem>
+                                </UnorderedList>
+                                <Text mt={'20px'}>{t('common:praca pasja')}</Text>
+                            </Flex>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}>
+                            <Heading mt={mt} fontSize={'4xl'}>{t('common:pozostajemy')}</Heading>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}
+                        >
+                            <Flex fontSize={'xl'} bg={bg} p={'5'} rounded={'lg'} mt={'10px'}>
+                                <Text>{t('common:w razie')}</Text>
+                            </Flex>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}
+                        >
+                            <Heading mt={mt} textAlign={'center'} fontSize={'4xl'}>
+                                {t('common:zapraszamy')}</Heading>
+                        </motion.div>
+                        <motion.div
+                            initial="hidden"
+                            exit='exit'
+                            whileInView="visible"
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.5 }}
+                            variants={{
+                                visible: { opacity: 1, scale: 1 },
+                                hidden: { opacity: 0, scale: 0 },
+                                exit: { opacity: 0, scale: 1, y: 20 }
+                            }}>
+                            <Heading id="Galeria" fontSize={{ base: '60px', md: '120px' }} textAlign={'left'}>{t('common:galeria')}</Heading>
+                        </motion.div>
 
-
+                    </Flex>
                     <motion.div
                         initial="hidden"
                         exit='exit'
@@ -509,34 +510,18 @@ const Inside = ({ delay }) => {
                         }}>
                         <Flex flexDir={'column'} w={{ base: '100%', md: '75%' }} m={'auto'}>
 
-                            <Flex flexDir={'column'} mb={'20px'}>
-                                <Text letterSpacing={'7px'} fontWeight="bold" fontFamily={'Heebo'} textTransform="uppercase">Goliat</Text>
-                                <Flex flexDir={{ base: "column", md: "row" }}>
-                                    <Flex _notLast={{ marginRight: { base: '0px', md: '20px' } }} _notFirst={{ marginTop: { base: '20px', md: '0px' } }} _last={{ marginRight: '0px' }}>
-                                        <Image alt='goliat' rounded={'lg'} objectFit={'cover'} src={'https://ik.imagekit.io/o532f5vcp38/goliat1_0nf4I8_cYQ?updatedAt=1639860768287'} />
-                                    </Flex>
-                                    <Flex _notLast={{ marginRight: { base: '0px', md: '20px' } }} _notFirst={{ marginTop: { base: '20px', md: '0px' } }} _last={{ marginRight: '0px' }}>
-                                        <Image alt='goliat' rounded={'lg'} objectFit={'cover'} src={'https://ik.imagekit.io/o532f5vcp38/goliat2_YBTQta_ih?updatedAt=1639860795965'} />
-                                    </Flex>
-                                    <Flex _notLast={{ marginRight: { base: '0px', md: '20px' } }} _notFirst={{ marginTop: { base: '20px', md: '0px' } }} _last={{ marginRight: '0px' }}>
-                                        <Image alt='goliat' rounded={'lg'} objectFit={'cover'} src={'https://ik.imagekit.io/o532f5vcp38/goliat3?updatedAt=1639860816195'} />
-                                    </Flex>
-                                </Flex>
-                            </Flex>
-                            <Divider mt={'0px'} />
-
-                            <Collapse startingHeight={20} in={show} flexDir="row">
+                            <Collapse in={show} flexDir="row" startingHeight="200px">
 
                                 {meble.map((meble) => {
                                     return <>
                                         <Flex flexDir={'column'} mt="0px" _first={{ marginTop: "0px" }}>
                                             <Text letterSpacing={'7px'} fontWeight="bold" fontFamily={'Heebo'} textTransform="uppercase">{meble.name}</Text>
                                             <Flex h={'auto'} flexDir={{ base: "column", md: "row" }}>
-                                                {meble.image.map((image) => {
+                                                {meble.image.map((image, name) => {
                                                     return <Flex key={image} _notLast={{ marginRight: { base: '0px', md: '20px' } }}
                                                         _notFirst={{ marginTop: { base: '20px', md: '0px' } }} _last={{ marginRight: '0px' }}
                                                         minW="30%">
-                                                        <Image loading="lazy" alt={image} rounded={'lg'} objectFit={'cover'} key={image} src={image} />
+                                                        <Image minW={'100%'} loading="lazy" alt={name} rounded={'lg'} objectFit={'cover'} key={image} src={image} />
                                                     </Flex>
                                                 })}
                                             </Flex>
@@ -547,7 +532,7 @@ const Inside = ({ delay }) => {
 
 
 
-                                I wiele więcej!
+                                {t('common:wiele')}
                             </Collapse>
                             <Button w={'200px'} onClick={handleToggle} m={'auto'} mt='1rem'>
                                 {show ? <Text>{t('common:mniej')}</Text> : <Text>{t('common:wiecej')}</Text>}

@@ -1,47 +1,92 @@
 [
     {
         "id": 1,
-        "name": "casino",
+        "name": "goliat",
         "image": [
-            "https://ik.imagekit.io/o532f5vcp38/casino1?updatedAt=1639861703319",
-            "https://ik.imagekit.io/o532f5vcp38/casino2?updatedAt=1639861711022",
-            "https://ik.imagekit.io/o532f5vcp38/casino3?updatedAt=1639861720294"
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/goliat1_0nf4I8_cYQ?updatedAt=1639860768287",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/goliat2_YBTQta_ih?updatedAt=1639860795965",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/goliat3?updatedAt=1639860816195"
         ]
     },
     {
         "id": 2,
-        "name": "bianka",
+        "name": "casino",
         "image": [
-            "https://ik.imagekit.io/o532f5vcp38/bianka1_DMhwx3oJ6YG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178695546",
-            "https://ik.imagekit.io/o532f5vcp38/bianka2_wiq0vhYar.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178699353",
-            "https://ik.imagekit.io/o532f5vcp38/bianka3_1YBvRszgOJS.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178693966"
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/casino1?updatedAt=1639861703319",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/casino2?updatedAt=1639861711022",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/casino3?updatedAt=1639861720294"
         ]
     },
     {
         "id": 3,
-        "name": "edward",
+        "name": "bianka",
         "image": [
-            "https://ik.imagekit.io/o532f5vcp38/edward1__LZkOe0y1y.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701515",
-            "https://ik.imagekit.io/o532f5vcp38/edward2_QBi2JOjqvVKa.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701941",
-            "https://ik.imagekit.io/o532f5vcp38/edward3_48waMSw-s.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178696359"
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/bianka1_DMhwx3oJ6YG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178695546",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/bianka2_wiq0vhYar.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178699353",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/bianka3_1YBvRszgOJS.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178693966"
         ]
     },
     {
         "id": 4,
-        "name": "fame",
+        "name": "edward",
         "image": [
-            "https://ik.imagekit.io/o532f5vcp38/fame1_JBRvIfJHwWT.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178694473",
-            "https://ik.imagekit.io/o532f5vcp38/fame2_1lddjWaVy5.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178695570",
-            "https://ik.imagekit.io/o532f5vcp38/fame3_dpnbQyst-ay.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178693377"
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/edward1__LZkOe0y1y.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701515",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/edward2_QBi2JOjqvVKa.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701941",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/edward3_48waMSw-s.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178696359"
         ]
     },
     {
         "id": 5,
+        "name": "fame",
+        "image": [
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/fame1_JBRvIfJHwWT.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178694473",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/fame2_1lddjWaVy5.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178695570",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/fame3_dpnbQyst-ay.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178693377"
+        ]
+    },
+    {
+        "id": 6,
         "name": "gordon",
         "image": [
-            "https://ik.imagekit.io/o532f5vcp38/gordon1_PQNMO_BCFI.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178699961",
-            "https://ik.imagekit.io/o532f5vcp38/gordon2_yd-bX8rY0nCG.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178703609",
-            "https://ik.imagekit.io/o532f5vcp38/gordon3_XQlIqjtDDB.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178703668"
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/gordon1_PQNMO_BCFI.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178699961",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/gordon2_yd-bX8rY0nCG.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178703609",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/gordon3_XQlIqjtDDB.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178703668"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "sypialnie",
+        "image": [
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/syp1_fBjY8bwRoo1.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701518",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/syp2_06BcDcw4D.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178700938",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/syp3_ScDZ8fPoNcn.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178704147"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "loże",
+        "image": [
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/lo%C5%BCe1_pKeYwXHceB-s.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178700563",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/lo%C5%BCe2_OM0acrklx.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701312",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/lo%C5%BCe3_5TV9pwCXFxy.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178700522"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "pufy",
+        "image": [
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/pufy1_VCx_S2JbEIQ.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178702181",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/pufy2_dFgEC9vUmY1.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178700369",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/pufy3_LEh6FbRdHb.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701360"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "senator",
+        "image": [
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/senator1_o97Kz_DxeT69.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178703858",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/senator2_vrcS4vV_Ob9.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1644178704246",
+            "https://ik.imagekit.io/o532f5vcp38/tr:w-500/senator3_tCilAh9_Abw.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1644178701800"
         ]
     }
 ]

@@ -55,7 +55,7 @@ export default function Nav() {
                             mr="20px"
                         >
                             Verdimeble</Link>
-                        <HStack whiteSpace={'nowrap'} fontWeight={'extrabold'} display={{ base: 'none', md: 'flex' }} >
+                        <HStack whiteSpace={'nowrap'} fontWeight={'extrabold'} display={{ base: 'none', lg: 'flex' }} >
                             <Link _activeLink={{ color: '#fff' }} id={router.pathname == "#start" ? "active" : ""} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#start'}>{t('common:strona glowna')}</Link>
                             <Link _activeLink={{ color: '#fff' }} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#o_nas'}>{t('common:o nas')}</Link>
                             <Link _activeLink={{ color: '#fff' }} color={colorlinks} px={px} py={py} _hover={{ color: colorlinkshover, background: bghover }} rounded={'lg'} href={'#oferta'}>{t('common:oferta')}</Link>
@@ -68,12 +68,12 @@ export default function Nav() {
                         spacing={3}>
                         <HStack spacing={5} display={'flex'}>
                             <LanguageSwither />
-                            <Button style={{ WebkitMarginStart: '0' }} w={{ base: '80px', md: 'auto' }} marginInlineStart={'5px'} mr={{ base: '-3', md: '0' }} data-splitbee-event="theme" fontSize={{ base: '0px', md: '15px' }} onClick={toggleColorMode} aria-label="Justify" rounded={'xl'} >{t('common:zmiana motywu')} {colorMode === 'dark' ? < SunIcon fontSize={'15px'} ml={ml} /> : <MoonIcon fontSize={'15px'} ml={ml} />}
+                            <Button fontWeight={'normal'} style={{ WebkitMarginStart: '0' }} w={{ base: '80px', md: 'auto' }} marginInlineStart={'5px'} mr={{ base: '-3', md: '0' }} data-splitbee-event="theme" fontSize={{ base: '0px', md: '15px' }} onClick={toggleColorMode} aria-label="Justify" rounded={'xl'} >{t('common:zmiana motywu')} {colorMode === 'dark' ? < SunIcon fontSize={'15px'} ml={ml} /> : <MoonIcon fontSize={'15px'} ml={ml} />}
                             </Button>
                             <Menu zIndex={'99999'}>
                                 {({ isOpen }) => (
                                     <>
-                                        <MenuButton display={['flex', 'flex', 'none', 'none']} rounded={'xl'}
+                                        <MenuButton display={['flex', 'flex', 'flex', 'none']} rounded={'xl'}
                                             as={IconButton} marginInlineStart={'0px'} marginInlineEnd={'auto'} style={{ WebkitMarginStart: '5px' }}
                                             aria-label='Options'>
                                             {isOpen ? <SmallCloseIcon fontSize={'20px'} /> : <HamburgerIcon />}
